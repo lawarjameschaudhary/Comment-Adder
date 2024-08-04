@@ -30,7 +30,7 @@ const InputField = () => {
   };
 
   return (
-    <div className='flex justify-center items-center m-24 flex-col border-2 p-4 py-28 shadow-2xl shadow-black'>
+    <div className='flex justify-center items-center md:m-24 flex-col border-2 p-4 py-28 shadow-2xl shadow-black sm:m-10'>
       <div className='flex flex-col gap-4 w-[100%]'>
         <form onSubmit={handleSubmit} className='flex flex-col gap-5'>
           <input type="text" placeholder="Enter your name" value={name} onChange={(e) => setName(e.target.value)} className='w-[100%] border-2 py-2 px-3 rounded-md'/>
